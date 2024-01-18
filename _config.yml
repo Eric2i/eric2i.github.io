@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Eric2i 
+subtitle: Stay hungry, stay foolish 
+description: a college student majoring in computer science
 keywords:
-author: John Doe
+author: Eric2i Hsiung 
 language: en
-timezone: ''
+timezone: America/Los_Angeles 
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://eric2i.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,7 +96,14 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next 
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
